@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;700&family=Montserrat:wght@100;300;600&display=swap');
+
+:root{
+    --texto: 'Montserrat', sans-serif;
+    --titulo: 'Kanit', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    margin-bottom: 20px;
+}
+.titulosSite{
+    font-family: var(--titulo);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+.barraNav{
+    background: #fff;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+.colorNav{
+    color: #000;
+    font-family: var(--texto);
+    font-weight: 300;
+}
+
+/*BANNER INICIAL*/
+#bannerIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/background2.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 700px;
+}
+.containerTextoBanner{
+    text-align: center;
+    color: #fff;
+}
+.containerTextoBanner h1{
+    font-family: var(--titulo);
+    font-size: 60px;
+    font-weight: 400;
+}
+.containerTextoBanner p{
+    font-family: var(--texto);
+    font-weight: 400;
+    font-size: 23px;
+}
+
+/*SERVIÇOS*/
+.containerServicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.containerServicos i{
+    font-size: 60px;
+}
+.servicosTitulo{
+    font-family: var(--titulo);
+    font-size: 35px;
+}
+.servicosTexto{
+    font-family: var(--texto);
+    font-size: 14px;
+}
+
+/*DÚVIDAS*/
+.accordion-button, .accordion-body{
+    font-family: var(--texto);
+    font-weight: 300;
+}
