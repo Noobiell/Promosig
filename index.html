@@ -30,31 +30,21 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <i class="fas fa-bars"></i>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offCanvasTitle">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offCanvasTitle">Offcanvas</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link colorNav active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link colorNav active" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link colorNav" href="#">Item 1</a>
+                  <a class="nav-link colorNav" href="#">Consulta</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link colorNav dropdown-toggle" href="#" id="dropdownMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Opções
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
-                    <li><a class="dropdown-item" href="#">item 1</a></li>
-                    <li><a class="dropdown-item" href="#">item 2</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">item 3</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link colorNav" href="quemsomos.html">Quem somos</a>
                 </li>
               </ul>
             </div>
@@ -69,6 +59,11 @@
             <div class="containerTextoBanner">
                 <h1>TITULO TEXTO EXEMPLO</h1>
                 <p>Aqui um paragrafo para exemplo</p>
+
+                <div class="coletaCpf">
+                  <input type="text" class="cpfCliente" placeholder="Consulte seu CPF aqui">
+                  <button class="btn btnConsulta">Consultar</button>
+                </div>
             </div>
         </div><!--Fim container-->
       </section>
@@ -159,6 +154,37 @@
           </div><!--Fim coontainer-->
       </section>
 
+      <a class="btnWhatsapp" href="#">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <footer id="rodape">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h1 class="logoRodape">PROMOSIG</h1>
+            </div><!--Fim col-->
+            <div class="col-md-4 text-center">
+              <h3 class="tituloFooter mb-3">Titulo 1</h3>
+              <ul class="listaItensFooter">
+                <li class="textoFooter">item</li>
+                <li class="textoFooter">item</li>
+                <li class="textoFooter">item</li>
+                <li class="textoFooter">item</li>
+              </ul>
+            </div><!--Fim col-->
+            <div class="col-md-4 text-center">
+              <h3 class="tituloFooter mb-3">Contato</h3>
+              <ul class="listaItensFooter">
+                <li class="textoFooter"><i class="fab fa-facebook"></i> Facebook</li>
+                <li class="textoFooter"><i class="fab fa-instagram"></i> Instagram</li>
+                <li class="textoFooter"><i class="fab fa-twitter"></i> Twitter</li>
+                <li class="textoFooter"><i class="fab fa-whatsapp"></i> Whatsapp</li>
+              </ul>
+            </div>
+          </div><!--Fim row-->
+        </div><!--Fim container-->
+      </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
